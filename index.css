@@ -116,8 +116,17 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
-  font-size: 10px;
-  color: rgb(242, 179, 188);
-  font-family: 'Lemon', 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family:  'Times New Roman', Times, serif;
+}
+
+.last
+{
+  margin-top: 50px;
+  font-size: 5px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: right;
 }
