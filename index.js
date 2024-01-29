@@ -2,6 +2,8 @@ let key = 'Dear, Maria';
 let funKey1 = 'Dear, Bear';
 let funKey2 = 'Dear, Stress Bhai';
 
+console.log('js file is running');
+
 let status = 1;
 document.querySelector('.l2').addEventListener('click', ()=>{
   document.querySelector('.l2').innerHTML='';
