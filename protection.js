@@ -6,6 +6,7 @@ document.querySelector('.v-btn').addEventListener('click',()=>{
   const Password = retrunP();
   if(text === Password)
   {
+    document.querySelector('.input-box').value = '';
     window.location.assign('wish.html');
   }
   else
