@@ -6,7 +6,6 @@ document.querySelector('.v-btn').addEventListener('click',()=>{
   const Password = retrunP();
   if(text === Password)
   {
-    document.querySelector('.e-message').innerHTML = 'good hai';
     window.location.assign('wish.html');
   }
   else
