@@ -7,6 +7,7 @@ document.querySelector('.v-btn').addEventListener('click',()=>{
   if(text === Password)
   {
     document.querySelector('.input-box').value = '';
+    document.querySelector('.e-message').innerHTML = '';
     window.location.assign('wish.html');
   }
   else
